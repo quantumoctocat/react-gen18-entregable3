@@ -1,4 +1,4 @@
-import Residents from "./Residents";
+import Residents from "./Residents"
 
 const LocationData = (props) => {
   return (
@@ -14,7 +14,7 @@ const LocationData = (props) => {
       }
       {console.log(props.response.residents)}
     </div>
-  );
+  )
 }
 
-export default LocationData;
+export default LocationData

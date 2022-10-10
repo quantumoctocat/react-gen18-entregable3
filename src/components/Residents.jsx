@@ -1,12 +1,12 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from "react"
 
 const Residents = (props) => {
-  // const filter = props.list === undefined ? [] : props.list;
+  // const filter = props.list === undefined ? [] : props.list
   // console.log(props.list)
 
   // let residentElements = filter.map((item => {
   //   <li className="rmResident">{item}</li>
-  // }));
+  // }))
   console.log()
   const [resident, setResident] = useState()
   useEffect(() => {
@@ -23,7 +23,7 @@ const Residents = (props) => {
     <div className="rmResidentOrigin">{`Origin: ${resident?.origin?.name}`}</div>
     <div className="rmResidentEpisodes">{`Episodes where appears: ${resident?.episode?.length}`}</div>
     <div className="rmResidentsList"></div>
-  </div>);
+  </div>)
 }
 
-export default Residents;
+export default Residents
